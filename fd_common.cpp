@@ -37,7 +37,7 @@ int recvfd(int connection_fd) {
     int fds[1];
     memcpy(fds, (int*)CMSG_DATA(cmsg), 1 * sizeof(int));
     int recvfd = fds[0];
-    std::cout << "server recv remote uintrfd" << recvfd;
+    std::cout << "recv remote uintrfd " << recvfd << std::endl;
 
     return recvfd;
 }
