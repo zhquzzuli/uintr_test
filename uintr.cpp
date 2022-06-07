@@ -17,7 +17,11 @@ UserInterrupt::UserInterrupt(const std::string& uds_path, int vector, bool is_se
 void UserInterrupt::init() {
     setup_local();
 
-    start_server_();
+    if (is_server_) {
+        start_server_();
+    } else {
+        connect_();
+    }
 }
 
 void UserInterrupt::register_sender(int remote_uintrfd) {

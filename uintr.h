@@ -21,7 +21,7 @@
 class UserInterrupt{
 public:
     UserInterrupt(const std::string& uds_path, int vector, bool is_server);
-    ~UserInterrupt();
+    ~UserInterrupt(){};
 
     void init();
 
