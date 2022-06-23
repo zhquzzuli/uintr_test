@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="uintr_test"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/zhangquan/mesh/uintr_test"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/zhangquan/mesh/uintr_test/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/zhangquan/mesh/uintr_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/zhangquan/mesh/uintr_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/zhangquan/mesh/uintr_test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="client">
+				<Option output="/Users/zhangquan/mesh/uintr_test/client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangquan/mesh/uintr_test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/zhangquan/mesh/uintr_test/Makefile&quot;  VERBOSE=1 client"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/zhangquan/mesh/uintr_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/zhangquan/mesh/uintr_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/zhangquan/mesh/uintr_test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="client/fast">
+				<Option output="/Users/zhangquan/mesh/uintr_test/client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangquan/mesh/uintr_test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/zhangquan/mesh/uintr_test/Makefile&quot;  VERBOSE=1 client/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/zhangquan/mesh/uintr_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/zhangquan/mesh/uintr_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/zhangquan/mesh/uintr_test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server">
+				<Option output="/Users/zhangquan/mesh/uintr_test/server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangquan/mesh/uintr_test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/zhangquan/mesh/uintr_test/Makefile&quot;  VERBOSE=1 server"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/zhangquan/mesh/uintr_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/zhangquan/mesh/uintr_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/zhangquan/mesh/uintr_test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server/fast">
+				<Option output="/Users/zhangquan/mesh/uintr_test/server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangquan/mesh/uintr_test"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="clang"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/zhangquan/mesh/uintr_test/Makefile&quot;  VERBOSE=1 server/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/zhangquan/mesh/uintr_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/zhangquan/mesh/uintr_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/zhangquan/mesh/uintr_test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/zhangquan/mesh/uintr_test"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/zhangquan/mesh/uintr_test/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/zhangquan/mesh/uintr_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/zhangquan/mesh/uintr_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/zhangquan/mesh/uintr_test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/zhangquan/mesh/uintr_test"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/zhangquan/mesh/uintr_test/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/zhangquan/mesh/uintr_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/zhangquan/mesh/uintr_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/zhangquan/mesh/uintr_test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uintr_lib">
+				<Option output="/Users/zhangquan/mesh/uintr_test/libuintr_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangquan/mesh/uintr_test"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/zhangquan/mesh/uintr_test/Makefile&quot;  VERBOSE=1 uintr_lib"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/zhangquan/mesh/uintr_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/zhangquan/mesh/uintr_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/zhangquan/mesh/uintr_test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="uintr_lib/fast">
+				<Option output="/Users/zhangquan/mesh/uintr_test/libuintr_lib.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/zhangquan/mesh/uintr_test"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/Users/zhangquan/mesh/uintr_test/Makefile&quot;  VERBOSE=1 uintr_lib/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/Users/zhangquan/mesh/uintr_test/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/Users/zhangquan/mesh/uintr_test/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/Users/zhangquan/mesh/uintr_test/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/zhangquan/mesh/uintr_test/client.cpp">
+			<Option target="client"/>
+		</Unit>
+		<Unit filename="/Users/zhangquan/mesh/uintr_test/fd_common.cpp">
+			<Option target="uintr_lib"/>
+		</Unit>
+		<Unit filename="/Users/zhangquan/mesh/uintr_test/fd_common.h">
+			<Option target="uintr_lib"/>
+		</Unit>
+		<Unit filename="/Users/zhangquan/mesh/uintr_test/server.cpp">
+			<Option target="server"/>
+		</Unit>
+		<Unit filename="/Users/zhangquan/mesh/uintr_test/uintr.cpp">
+			<Option target="uintr_lib"/>
+		</Unit>
+		<Unit filename="/Users/zhangquan/mesh/uintr_test/uintr.h">
+			<Option target="uintr_lib"/>
+		</Unit>
+		<Unit filename="/Users/zhangquan/mesh/uintr_test/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

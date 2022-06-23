@@ -7,7 +7,7 @@
 #include "fd_common.h"
 
 void UserInterrupt::ui_handler(struct __uintr_frame *ui_frame, unsigned long long vector) {
-    std::cout << "ui_handler vector " << vector << std::endl;
+    std::cout << "recv UserInterrupt ui_handler vector " << vector << std::endl;
 }
 
 UserInterrupt::UserInterrupt(const std::string& uds_path, int vector, bool is_server) :
@@ -83,6 +83,9 @@ void UserInterrupt::start_server_() {
 
     register_sender(recvfd(connection_fd));
     sendfd(connection_fd, local_uintrfd_);
+
+    close(connection_fd);
+    close(listen_fd_);
 }
 
 void UserInterrupt::connect_() {
@@ -100,6 +103,8 @@ void UserInterrupt::connect_() {
 
     sendfd(connect_fd_, local_uintrfd_);
     register_sender(recvfd(connect_fd_));
+
+    close(connect_fd_);
 }
 
 void UserInterrupt::wakeupPeer() {
